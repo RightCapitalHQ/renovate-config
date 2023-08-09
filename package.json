@@ -1,0 +1,29 @@
+{
+  "name": "@rightcapitalhq/renovate-config",
+  "version": "0.0.1",
+  "description": "A shareable config preset for Renovate used in RightCapital",
+  "keywords": [
+    "npm",
+    "pnpm",
+    "renovate",
+    "renovate-presets"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/RightCapitalHQ/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RightCapitalHQ/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RightCapitalHQ/renovate-config/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator default.json",
+    "test": "pnpm run validate",
+    "prepare": "pnpm run test"
+  },
+  "devDependencies": {
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@8.6.12"
+}
