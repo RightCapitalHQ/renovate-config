@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: latest
-    version: 36.87.3(typanion@3.14.0)
+    version: 36.92.0(typanion@3.14.0)
 
 packages:
 
@@ -3128,7 +3128,7 @@ packages:
       foreground-child: 3.1.1
       jackspeak: 2.2.2
       minimatch: 9.0.3
-      minipass: 7.0.2
+      minipass: 7.0.3
       path-scurry: 1.10.1
     dev: true
 
@@ -4007,11 +4007,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /minipass@7.0.2:
-    resolution: {integrity: sha512-eL79dXrE1q9dBbDCLg7xfn/vl7MS4F1gvJAgjJrQli/jbQWdUttuVawphqpffoIYfRdq78LHx6GP4bU/EQ2ATA==}
-    engines: {node: '>=16 || 14 >=14.17'}
-    dev: true
-
   /minipass@7.0.3:
     resolution: {integrity: sha512-LhbbwCfz3vsb12j/WkWQPZfKTsgqIe1Nf/ti1pKjYESGLHIVjWU96G9/ljLH4F9mWNVhlQOm0VySdAWzf05dpg==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -4394,7 +4389,7 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       lru-cache: 10.0.0
-      minipass: 7.0.2
+      minipass: 7.0.3
     dev: true
 
   /path-type@4.0.0:
@@ -4613,8 +4608,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.87.3(typanion@3.14.0):
-    resolution: {integrity: sha512-Yk39Ss1s5X/4iViPOuYkwZxsid8zO2SxHwcrlhA7+hIbzGH0XHcJZQXqy2rqHaS875CPbJ0nRjdj0S5WmvfFjg==}
+  /renovate@36.92.0(typanion@3.14.0):
+    resolution: {integrity: sha512-c9pA2T4L2E+agsde1WnzGKjCzyL7SJRXDHfudtw7TSdMdXtAclrMS5hgwR2XTnUW9CdREjXKq/RlygI/T6Uo4Q==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
