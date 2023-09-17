@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: latest
-    version: 36.92.0(typanion@3.14.0)
+    version: 36.96.3(typanion@3.14.0)
 
 packages:
 
@@ -1513,8 +1513,8 @@ packages:
       '@seald-io/nedb': 4.0.2
     dev: true
 
-  /@renovatebot/osv-offline@1.3.6:
-    resolution: {integrity: sha512-ZhgUIueOGGSJUrTv5eh1+kAwXlS0waVy2H2sFpTiaWhlKZW/pknVbi7CGNatxKm8nglzXA0koXwwe/Gme0Kfjw==}
+  /@renovatebot/osv-offline@1.3.7:
+    resolution: {integrity: sha512-v75Kzz+HSGoQJaq31iobx54oV60alDXlsvTtUAI3pRhGDAm/lkd/cUSjj9DsiPEOtW/WPPgdZyyK4w9HQERrAA==}
     dependencies:
       '@octokit/rest': 19.0.13
       '@renovatebot/osv-offline-db': 1.4.0
@@ -1532,8 +1532,8 @@ packages:
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@renovatebot/ruby-semver@3.0.13:
-    resolution: {integrity: sha512-VZO3BCaL0JToh/T+LwB3invT3J4wbut8gux63aC6xGm1SjrZt5/aNLkjy5/vabDNGXLU442VbVtMIIHVyM91CA==}
+  /@renovatebot/ruby-semver@3.0.14:
+    resolution: {integrity: sha512-3VFQ8ylW2FcvMzOnN+z0LW497sadrZQIQeIsw5iGAdN/XuYwdwNEZzOp37lAm/KUvs9iSmNZtzE+9ednUQNN4A==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
@@ -2428,11 +2428,31 @@ packages:
   /cacache@17.1.4:
     resolution: {integrity: sha512-/aJwG2l3ZMJ1xNAnqbMpA40of9dj/pIH3QfiuQSqjfPJF747VR0J/bHn+/KdNnHKc6XQcWt/AfRSBft82W1d2A==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    requiresBuild: true
     dependencies:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.2
       glob: 10.3.4
       lru-cache: 7.18.3
+      minipass: 7.0.3
+      minipass-collect: 1.0.2
+      minipass-flush: 1.0.5
+      minipass-pipeline: 1.2.4
+      p-map: 4.0.0
+      ssri: 10.0.4
+      tar: 6.1.15
+      unique-filename: 3.0.0
+    dev: true
+    optional: true
+
+  /cacache@18.0.0:
+    resolution: {integrity: sha512-I7mVOPl3PUCeRub1U8YoGz2Lqv9WOBpobZ8RyWFXmReuILz+3OAyTa5oH3QPdtKZD7N0Yk00aLfzn0qvp8dZ1w==}
+    engines: {node: ^16.14.0 || >=18.0.0}
+    dependencies:
+      '@npmcli/fs': 3.1.0
+      fs-minipass: 3.0.2
+      glob: 10.3.4
+      lru-cache: 10.0.1
       minipass: 7.0.3
       minipass-collect: 1.0.2
       minipass-flush: 1.0.5
@@ -3723,6 +3743,11 @@ packages:
     engines: {node: 14 || >=16.14}
     dev: true
 
+  /lru-cache@10.0.1:
+    resolution: {integrity: sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==}
+    engines: {node: 14 || >=16.14}
+    dev: true
+
   /lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
@@ -3733,7 +3758,9 @@ packages:
   /lru-cache@7.18.3:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
+    requiresBuild: true
     dev: true
+    optional: true
 
   /luxon@3.4.3:
     resolution: {integrity: sha512-tFWBiv3h7z+T/tDaoxA8rqTxy1CHV6gHS//QdaH4pulbq/JuBSGgQspQQqcgnwdAx6pNI7cmvz5Sv/addzHmUg==}
@@ -4130,8 +4157,8 @@ packages:
     dev: true
     optional: true
 
-  /node-html-parser@6.1.6:
-    resolution: {integrity: sha512-C/MGDQ2NjdjzUq41bW9kW00MPZecAe/oo89vZEFLDfWoQVDk/DdML1yuxVVKLDMFIFax2VTq6Vpfzyn7z5yYgQ==}
+  /node-html-parser@6.1.8:
+    resolution: {integrity: sha512-bi3ChNi5Ne8XM2vDPvE2TOS6+AjgD9ASRJ81P1+45VTe9odNbsNb3SvVZzHho4qnu5gJ1yUYLGlQZ7tveSYNSg==}
     dependencies:
       css-select: 5.1.0
       he: 1.2.0
@@ -4608,8 +4635,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.92.0(typanion@3.14.0):
-    resolution: {integrity: sha512-c9pA2T4L2E+agsde1WnzGKjCzyL7SJRXDHfudtw7TSdMdXtAclrMS5hgwR2XTnUW9CdREjXKq/RlygI/T6Uo4Q==}
+  /renovate@36.96.3(typanion@3.14.0):
+    resolution: {integrity: sha512-PqJR+18KI2H+7I0D3w+HDIgQVmKt1ZeqfxWfsCuYvtn8CDQVu34VbjxEW1h1huP55vSNUg3hs9Jkvh35Ws8fvA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4633,9 +4660,9 @@ packages:
       '@opentelemetry/sdk-trace-node': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.15.2
       '@qnighy/marshal': 0.1.3
-      '@renovatebot/osv-offline': 1.3.6
+      '@renovatebot/osv-offline': 1.3.7
       '@renovatebot/pep440': 3.0.7
-      '@renovatebot/ruby-semver': 3.0.13
+      '@renovatebot/ruby-semver': 3.0.14
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.31
       '@types/tmp': 0.2.3
@@ -4647,7 +4674,7 @@ packages:
       aws4: 1.12.0
       azure-devops-node-api: 12.1.0
       bunyan: 1.8.15
-      cacache: 17.1.4
+      cacache: 18.0.0
       cacheable-lookup: 5.0.4
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
@@ -4691,7 +4718,7 @@ packages:
       moo: 0.5.2
       ms: 2.1.3
       nanoid: 3.3.6
-      node-html-parser: 6.1.6
+      node-html-parser: 6.1.8
       openpgp: 5.10.1
       p-all: 3.0.0
       p-map: 4.0.0
