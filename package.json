@@ -18,7 +18,7 @@
     "url": "https://github.com/RightCapitalHQ/renovate-config/issues"
   },
   "scripts": {
-    "validate": "renovate-config-validator default.json",
+    "validate": "renovate-config-validator --strict default.json",
     "test": "pnpm run validate",
     "prepare": "pnpm run test"
   },
