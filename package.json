@@ -20,8 +20,9 @@
   "scripts": {
     "lint": "prettier -c .",
     "fix": "prettier -w .",
-    "validate": "renovate-config-validator --strict default.json",
-    "test": "pnpm run validate",
+    "validate:default": "renovate-config-validator --strict default.json",
+    "validate:library": "renovate-config-validator --strict library.json",
+    "test": "pnpm run /^validate:/",
     "prepare": "pnpm run test"
   },
   "devDependencies": {

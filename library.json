@@ -1,0 +1,19 @@
+{
+  "automergeType": "pr",
+  "description": "Library-specific config for RightCapital repositories",
+  "extends": ["config:recommended", ":pinAllExceptPeerDependencies"],
+  "labels": ["renovate"],
+  "npm": { "commitMessageTopic": "{{prettyDepType}} {{depName}}" },
+  "packageRules": [
+    {
+      "description": "Automerge non-major updates",
+      "groupName": "Non-major Updates(auto merge)",
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ],
+  "platformAutomerge": true,
+  "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeFewer"],
+  "prCreation": "immediate",
+  "rangeStrategy": "auto"
+}
