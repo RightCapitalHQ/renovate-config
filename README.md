@@ -8,7 +8,7 @@
 [ci-badge]: https://github.com/RightCapitalHQ/renovate-config/actions/workflows/ci.yml/badge.svg
 [ci-url]: https://github.com/RightCapitalHQ/renovate-config/actions/workflows/ci.yml
 
-A [shareable config preset](https://docs.renovatebot.com/config-presets/) for Renovate used in [RightCapital](https://www.rightcapital.com/).
+[Shareable config presets](https://docs.renovatebot.com/config-presets/) for Renovate used in [RightCapital](https://www.rightcapital.com/).
 
 ## Usage
 
@@ -16,7 +16,10 @@ Enable Renovate in your repository and just `extends` in _renovate.json_.
 
 ```json
 {
-  "extends": ["github>RightCapitalHQ/renovate-config"]
+  "extends": ["github>RightCapitalHQ/renovate-config"],
+
+  // for library projects, use library preset instead
+  "extends": ["github>RightCapitalHQ/renovate-config:library"]
 }
 ```
 

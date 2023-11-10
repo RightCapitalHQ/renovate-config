@@ -1,6 +1,6 @@
 {
   "automergeType": "pr",
-  "description": "Default config for RightCapital repositories",
+  "description": "App-specific config for RightCapital repositories",
   "extends": ["config:recommended", ":pinAllExceptPeerDependencies"],
   "labels": ["renovate"],
   "npm": {
@@ -8,9 +8,8 @@
   },
   "packageRules": [
     {
-      "description": "Automerge non-major updates",
-      "groupName": "Non-major Updates",
-      "groupSlug": "auto-merge-non-major-updates",
+      "description": "Automerge non-major updates and lockfile maintenance",
+      "groupName": "Non-major Updates and Lockfile Maintenance(auto merge)",
       "matchUpdateTypes": ["minor", "patch", "lockFileMaintenance"],
       "automerge": true
     }
