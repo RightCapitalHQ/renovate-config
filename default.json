@@ -2,7 +2,7 @@
   "automergeType": "pr",
   "description": "Default config for RightCapital repositories",
   "extends": [
-    "config:base",
+    "config:recommended",
     ":pinAllExceptPeerDependencies"
   ],
   "labels": [
@@ -29,4 +29,3 @@
   "prCreation": "immediate",
   "rangeStrategy": "auto"
 }
-
