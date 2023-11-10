@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@rightcapital/prettier-config':
+    specifier: 6.0.4
+    version: 6.0.4(prettier@3.0.3)
+  prettier:
+    specifier: 3.0.3
+    version: 3.0.3
   renovate:
     specifier: latest
     version: 37.42.0(typanion@3.14.0)
@@ -1551,6 +1557,15 @@ packages:
   /@renovatebot/ruby-semver@3.0.16:
     resolution: {integrity: sha512-KT6vKk4OYdb3Gmfve0RVWTpsz56LxK1YOVQ822sH39kWSrOTRbeb1cbXBdeLwvpAhDFX8TCs5lBJnSvIQOgwpg==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
+    dev: true
+
+  /@rightcapital/prettier-config@6.0.4(prettier@3.0.3):
+    resolution: {integrity: sha512-1EFZMH71nZM6bb6zOz8SzLalVZl/8iKOYNuuIr4uy26ZJKsQDhEuwUePvmH7dIp4AS124uHlYOKW2Zf+x/sGsw==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      prettier: ^3.0.0
+    dependencies:
+      prettier: 3.0.3
     dev: true
 
   /@seald-io/binary-search-tree@1.0.3:
@@ -4559,6 +4574,12 @@ packages:
   /prettier@2.8.8:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
