@@ -12,15 +12,14 @@ A [shareable config preset](https://docs.renovatebot.com/config-presets/) for Re
 
 ## Usage
 
-Enable Renovate in your repository and just `extends` in *renovate.json*.
+Enable Renovate in your repository and just `extends` in _renovate.json_.
 
 ```json
 {
-  "extends": [
-    "github>RightCapitalHQ/renovate-config"
-  ]
+  "extends": ["github>RightCapitalHQ/renovate-config"]
 }
 ```
+
 > [!NOTE]  
 > You don't have to do `npm i -D @RightCapitalHQ/renovate-config`. Renovate fetches it from this GitHub repo automatically.
 

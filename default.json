@@ -1,13 +1,8 @@
 {
   "automergeType": "pr",
   "description": "Default config for RightCapital repositories",
-  "extends": [
-    "config:recommended",
-    ":pinAllExceptPeerDependencies"
-  ],
-  "labels": [
-    "renovate"
-  ],
+  "extends": ["config:recommended", ":pinAllExceptPeerDependencies"],
+  "labels": ["renovate"],
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
@@ -21,11 +16,7 @@
     }
   ],
   "platformAutomerge": true,
-  "postUpdateOptions": [
-    "npmDedupe",
-    "pnpmDedupe",
-    "yarnDedupeFewer"
-  ],
+  "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeFewer"],
   "prCreation": "immediate",
   "rangeStrategy": "auto"
 }

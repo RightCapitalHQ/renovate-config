@@ -18,11 +18,15 @@
     "url": "https://github.com/RightCapitalHQ/renovate-config/issues"
   },
   "scripts": {
+    "lint": "prettier -c .",
+    "fix": "prettier -w .",
     "validate": "renovate-config-validator --strict default.json",
     "test": "pnpm run validate",
     "prepare": "pnpm run test"
   },
   "devDependencies": {
+    "@rightcapital/prettier-config": "6.0.4",
+    "prettier": "3.0.3",
     "renovate": "latest"
   },
   "packageManager": "pnpm@8.10.2"
