@@ -7,10 +7,10 @@ settings:
 devDependencies:
   '@rightcapital/prettier-config':
     specifier: 6.0.4
-    version: 6.0.4(prettier@3.0.3)
+    version: 6.0.4(prettier@3.1.0)
   prettier:
-    specifier: 3.0.3
-    version: 3.0.3
+    specifier: 3.1.0
+    version: 3.1.0
   renovate:
     specifier: latest
     version: 37.56.3(typanion@3.14.0)
@@ -1528,13 +1528,13 @@ packages:
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@rightcapital/prettier-config@6.0.4(prettier@3.0.3):
+  /@rightcapital/prettier-config@6.0.4(prettier@3.1.0):
     resolution: {integrity: sha512-1EFZMH71nZM6bb6zOz8SzLalVZl/8iKOYNuuIr4uy26ZJKsQDhEuwUePvmH7dIp4AS124uHlYOKW2Zf+x/sGsw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      prettier: 3.0.3
+      prettier: 3.1.0
     dev: true
 
   /@seald-io/binary-search-tree@1.0.3:
@@ -4427,6 +4427,12 @@ packages:
 
   /prettier@3.0.3:
     resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
+  /prettier@3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
