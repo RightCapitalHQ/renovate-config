@@ -6,14 +6,14 @@ settings:
 
 devDependencies:
   '@rightcapital/prettier-config':
-    specifier: 6.0.4
-    version: 6.0.4(prettier@3.1.0)
+    specifier: 6.0.5
+    version: 6.0.5(prettier@3.1.0)
   prettier:
     specifier: 3.1.0
     version: 3.1.0
   renovate:
     specifier: latest
-    version: 37.56.3(typanion@3.14.0)
+    version: 37.56.5(typanion@3.14.0)
 
 packages:
 
@@ -1528,8 +1528,8 @@ packages:
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@rightcapital/prettier-config@6.0.4(prettier@3.1.0):
-    resolution: {integrity: sha512-1EFZMH71nZM6bb6zOz8SzLalVZl/8iKOYNuuIr4uy26ZJKsQDhEuwUePvmH7dIp4AS124uHlYOKW2Zf+x/sGsw==}
+  /@rightcapital/prettier-config@6.0.5(prettier@3.1.0):
+    resolution: {integrity: sha512-iIUH7OABldfszg2j3/nnDLwXAHDApszdE4YuHtPooBgYyzP7LEA9EXBYc+sU6Np3CN4+TMJKYpTCGNHSoj0SYQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -2820,6 +2820,7 @@ packages:
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
+    requiresBuild: true
     dev: true
 
   /emoji-regex@9.2.2:
@@ -3521,6 +3522,7 @@ packages:
   /is-fullwidth-code-point@3.0.0:
     resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: true
 
   /is-generator-function@1.0.10:
@@ -4120,8 +4122,8 @@ packages:
     dev: true
     optional: true
 
-  /nanoid@3.3.6:
-    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
+  /nanoid@3.3.7:
+    resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
@@ -4598,8 +4600,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.56.3(typanion@3.14.0):
-    resolution: {integrity: sha512-pwgP3NzQOqr2u4G3PD1LqcdfRmGtdQde09hEdMqoENOz7KdHouoxv2TVMRrGxLMfklSw14oscCRu84IN6h6DSQ==}
+  /renovate@37.56.5(typanion@3.14.0):
+    resolution: {integrity: sha512-13DcMy6Qte8NrME6GN4Nv63BQ5FsplECx/9I9e7YzVbSg8ok71igxZ6IEmqD+i9XGsV9gE/bQY+OWsW1ZZ9AVA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4680,7 +4682,7 @@ packages:
       minimatch: 9.0.3
       moo: 0.5.2
       ms: 2.1.3
-      nanoid: 3.3.6
+      nanoid: 3.3.7
       node-html-parser: 6.1.11
       openpgp: 5.11.0
       p-all: 3.0.0
@@ -5045,6 +5047,7 @@ packages:
 
   /string_decoder@1.3.0:
     resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
+    requiresBuild: true
     dependencies:
       safe-buffer: 5.2.1
     dev: true
