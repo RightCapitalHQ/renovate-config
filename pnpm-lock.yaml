@@ -6,14 +6,14 @@ settings:
 
 devDependencies:
   '@rightcapital/prettier-config':
-    specifier: 6.0.5
-    version: 6.0.5(prettier@3.1.0)
+    specifier: 6.0.6
+    version: 6.0.6(prettier@3.1.0)
   prettier:
     specifier: 3.1.0
     version: 3.1.0
   renovate:
     specifier: latest
-    version: 37.57.1(typanion@3.14.0)
+    version: 37.57.2(typanion@3.14.0)
 
 packages:
 
@@ -1528,8 +1528,8 @@ packages:
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@rightcapital/prettier-config@6.0.5(prettier@3.1.0):
-    resolution: {integrity: sha512-iIUH7OABldfszg2j3/nnDLwXAHDApszdE4YuHtPooBgYyzP7LEA9EXBYc+sU6Np3CN4+TMJKYpTCGNHSoj0SYQ==}
+  /@rightcapital/prettier-config@6.0.6(prettier@3.1.0):
+    resolution: {integrity: sha512-ObKLAsbaLruZRWDHejbWYiAycqjLcS+PP54mc2q2bnaN0Ww5ALTlSFNy2oloD99JDeOCdzn402gBxDsngca/zQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -4600,8 +4600,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.57.1(typanion@3.14.0):
-    resolution: {integrity: sha512-feBOKTw1Sd3/G7Glk+QuzZfrdTjiBrBQNbGPSAtYo18GJ1SyWUIwEuI+gH5E5Lkdswl57EOLx+hjKcZ+vQpMQw==}
+  /renovate@37.57.2(typanion@3.14.0):
+    resolution: {integrity: sha512-OBfSlZq5ERbZH2g/Tl6AUgVaL6q+InleD45aJ5dqmFH0MPX1/P7qkw88u7FXoxCIzoxiTBZdyd5JCPKQhkVk8w==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
