@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@rightcapital/prettier-config": "6.0.8",
-    "prettier": "3.1.0",
+    "prettier": "3.1.1",
     "renovate": "latest"
   },
   "packageManager": "pnpm@8.12.0"
