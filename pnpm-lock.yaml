@@ -13,7 +13,7 @@ devDependencies:
     version: 3.1.1
   renovate:
     specifier: latest
-    version: 37.89.5(typanion@3.14.0)
+    version: 37.92.0(typanion@3.14.0)
 
 packages:
 
@@ -1517,13 +1517,13 @@ packages:
       - encoding
     dev: true
 
-  /@renovatebot/pep440@3.0.12:
-    resolution: {integrity: sha512-l5qdcpsS+tpOhPf/lChoCv+Fd52ajMeq7t7oXmmDwBG5Nfuv5P4QVs5v9mP/dxBta/uRCNFnKVJmbFpPHTBrrw==}
+  /@renovatebot/pep440@3.0.14:
+    resolution: {integrity: sha512-ijhB6zyR20xUyhKR9zOy+9wBBAUD6D+LiBjbVMjMTF+8rEfPMA2mTGh+EJ0t44h8ysV41iKNzC0dQmYjxSw9BA==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@renovatebot/ruby-semver@3.0.19:
-    resolution: {integrity: sha512-VuTIcDyC6MDp7G8QCLVY28XlXZKXSe7eSfnweNxwqGrcMKONS5qFtvrj0ZxPo5mM685Z2P8S1f8p0dfdEiH+ow==}
+  /@renovatebot/ruby-semver@3.0.20:
+    resolution: {integrity: sha512-HOn6SWkSfbMNBPFa/Bqwb30LIoCwlxxYQihL2dqX2n+OPzSXT5ZmmTabFF6Gso65T3dc5g67Tdt57mICxmn3SQ==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
@@ -2754,12 +2754,12 @@ packages:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
     dev: true
 
-  /emojibase-regex@15.2.0:
-    resolution: {integrity: sha512-65H5YepRW3gdrghV/Ed9kW3Qry8/qeKJmMlm31nTsOrEZfuAgyr28FmloXpyak86+chR8cukZA7dlafZzrJXbw==}
+  /emojibase-regex@15.3.0:
+    resolution: {integrity: sha512-EBz/292VBF9naBPBsGzkZUccgIv1xJibTXIINl8SezgVRnTCpKJx7MgZcR+UAd2RwjGkRJJZ/lhP7riOFZLicA==}
     dev: true
 
-  /emojibase@15.2.0:
-    resolution: {integrity: sha512-gB6rIVtyJPersQvAo4nOGYPeILMhlcfZdiwCWVeRAtkJ7sm0tExZETGyLhrTQcHvZQhDEYI1vlCeqUhn5gZkQA==}
+  /emojibase@15.3.0:
+    resolution: {integrity: sha512-lFdQb14hoznwDh1xDoOFzkPdeeexmbuJdhUUjDaJZf/+jK+6Z3HkI5hWOemWfEdaMxtTujc1vNRx9DKtdtiOXA==}
     dev: true
 
   /encoding@0.1.13:
@@ -4283,12 +4283,6 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /prettier@3.1.0:
-    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
-
   /prettier@3.1.1:
     resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
     engines: {node: '>=14'}
@@ -4463,8 +4457,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.89.5(typanion@3.14.0):
-    resolution: {integrity: sha512-tLwQfcRQ+skN3KxZANxiAdAPfzjVBGCwWRZvK44AkZNXpCNnQKs5gytj1swoOym7iY35LL32+rsunxyRkKEh5A==}
+  /renovate@37.92.0(typanion@3.14.0):
+    resolution: {integrity: sha512-v1j7hPLxLanJxbXzgZHbALUQ3bxAbws4NTMesMaJ6JZwhlmKLJZEzy/xg9hfzOgDao54zMndjghc/qjbuk4STg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4488,8 +4482,8 @@ packages:
       '@opentelemetry/semantic-conventions': 1.18.1
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.3.10
-      '@renovatebot/pep440': 3.0.12
-      '@renovatebot/ruby-semver': 3.0.19
+      '@renovatebot/pep440': 3.0.14
+      '@renovatebot/ruby-semver': 3.0.20
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.34
       '@types/tmp': 0.2.6
@@ -4515,8 +4509,8 @@ packages:
       editorconfig: 2.0.0
       email-addresses: 5.0.0
       emoji-regex: 10.3.0
-      emojibase: 15.2.0
-      emojibase-regex: 15.2.0
+      emojibase: 15.3.0
+      emojibase-regex: 15.3.0
       extract-zip: 2.0.1
       find-packages: 10.0.4
       find-up: 5.0.0
@@ -4553,7 +4547,7 @@ packages:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 3.1.0
+      prettier: 3.1.1
       redis: 4.6.11
       remark: 13.0.0
       remark-github: 10.1.0
