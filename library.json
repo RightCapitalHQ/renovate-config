@@ -1,7 +1,12 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "automergeType": "pr",
   "description": "Library-specific config for RightCapital repositories",
-  "extends": ["config:recommended", ":pinAllExceptPeerDependencies"],
+  "extends": [
+    "config:recommended",
+    ":pinAllExceptPeerDependencies",
+    "docker:pinDigests"
+  ],
   "labels": ["renovate"],
   "npm": { "commitMessageTopic": "{{prettyDepType}} {{depName}}" },
   "packageRules": [
