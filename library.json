@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "automergeType": "pr",
   "description": "Library-specific config for RightCapital repositories",
   "extends": ["config:recommended", ":pinAllExceptPeerDependencies"],
