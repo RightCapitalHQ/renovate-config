@@ -7,13 +7,13 @@ settings:
 devDependencies:
   '@rightcapital/prettier-config':
     specifier: 6.0.10
-    version: 6.0.10(prettier@3.2.2)
+    version: 6.0.10(prettier@3.2.3)
   prettier:
-    specifier: 3.2.2
-    version: 3.2.2
+    specifier: 3.2.3
+    version: 3.2.3
   renovate:
     specifier: latest
-    version: 37.130.0(typanion@3.14.0)
+    version: 37.137.3(typanion@3.14.0)
 
 packages:
 
@@ -1498,17 +1498,17 @@ packages:
       '@redis/client': 1.5.13
     dev: true
 
-  /@renovatebot/osv-offline-db@1.4.1:
-    resolution: {integrity: sha512-njYO9GQ87wU4Q+lWoQkk+jMWoLaBadc8mcPoYhHNnUwaeX7lOOZkQwNSWV+KWjx1pi5WpGUM592kAinvMH8maA==}
+  /@renovatebot/osv-offline-db@1.5.0:
+    resolution: {integrity: sha512-u/3JUDAYqOilqbevIWEkU+pdEjEmOqHD0lyT39jFuLxDGelOqF0OACaHMtQz7+ATLIekr6NpPcj+2LMTROF8hA==}
     dependencies:
       '@seald-io/nedb': 4.0.3
     dev: true
 
-  /@renovatebot/osv-offline@1.3.11:
-    resolution: {integrity: sha512-ax3vyY3l+AltdOwo+IUHBIJbeWmgWLL1plr7eMVxUacN5/0vo5b/lWutHcGtkxK1MtAxhOsSB+qrp7H9biR2YA==}
+  /@renovatebot/osv-offline@1.4.0:
+    resolution: {integrity: sha512-63/TZ+WXfPi5E3quLFsbAo5WDh7kqWTcGtR2nEt65MSTxmKVNx96HY8yGBfdfMTXQMw/D3FstBNcfVUi97bMPQ==}
     dependencies:
       '@octokit/rest': 20.0.2
-      '@renovatebot/osv-offline-db': 1.4.1
+      '@renovatebot/osv-offline-db': 1.5.0
       adm-zip: 0.5.10
       fs-extra: 11.2.0
       got: 11.8.6
@@ -1528,13 +1528,13 @@ packages:
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@rightcapital/prettier-config@6.0.10(prettier@3.2.2):
+  /@rightcapital/prettier-config@6.0.10(prettier@3.2.3):
     resolution: {integrity: sha512-tN4XXbTwoQsGXjE3SQvxyIpXtk8Q3NqD7RUctTil1sDj0scnBR40WQ1HvWcSqyZ/WAAoeO+xwxPGuvSsoEJ5+Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      prettier: 3.2.2
+      prettier: 3.2.3
     dev: true
 
   /@seald-io/binary-search-tree@1.0.3:
@@ -4290,8 +4290,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.2.2:
-    resolution: {integrity: sha512-HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==}
+  /prettier@3.2.3:
+    resolution: {integrity: sha512-QNhUTBq+mqt1oH1dTfY3phOKNhcDdJkfttHI6u0kj7M2+c+7fmNKlgh2GhnHiqMcbxJ+a0j2igz/2jfl9QKLuw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -4464,8 +4464,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.130.0(typanion@3.14.0):
-    resolution: {integrity: sha512-4U6rEqocNtRZVMqCZer+0ANQQWSMNl3+Pvff5jv27BQ1tWy/btKHA3pWUPC1Jfhis+n31EfaGPD2NdGweQ+eFw==}
+  /renovate@37.137.3(typanion@3.14.0):
+    resolution: {integrity: sha512-mkx65sXc625Cv0H9+bAd20NwubVyjwwCmzqzpe7a5yOJc/rUAv5XBeq5AvnCjV26FKK0oQIb0GGgCwUV7cjRSA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4488,7 +4488,7 @@ packages:
       '@opentelemetry/sdk-trace-node': 1.19.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/semantic-conventions': 1.19.0
       '@qnighy/marshal': 0.1.3
-      '@renovatebot/osv-offline': 1.3.11
+      '@renovatebot/osv-offline': 1.4.0
       '@renovatebot/pep440': 3.0.17
       '@renovatebot/ruby-semver': 3.0.22
       '@sindresorhus/is': 4.6.0
