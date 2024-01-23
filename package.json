@@ -30,5 +30,5 @@
     "prettier": "3.2.4",
     "renovate": "latest"
   },
-  "packageManager": "pnpm@8.14.2"
+  "packageManager": "pnpm@8.14.3"
 }
