@@ -13,7 +13,7 @@ devDependencies:
     version: 3.2.5
   renovate:
     specifier: latest
-    version: 37.186.0(typanion@3.14.0)
+    version: 37.192.0(typanion@3.14.0)
 
 packages:
 
@@ -2580,6 +2580,11 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
+  /commander@12.0.0:
+    resolution: {integrity: sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==}
+    engines: {node: '>=18'}
+    dev: true
+
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     requiresBuild: true
@@ -3168,8 +3173,8 @@ packages:
       moo: 0.5.2
     dev: true
 
-  /google-auth-library@9.6.2:
-    resolution: {integrity: sha512-8G5i+uELrRE244PGnTc9UxiWZ2FMWD5jiIe9P2XSxCvXv/0ip/phjeHSE4bhJnLBdJb+Bu/Gj9Lr33TmDnbAiw==}
+  /google-auth-library@9.6.3:
+    resolution: {integrity: sha512-4CacM29MLC2eT9Cey5GDVK4Q8t+MMp8+OEdOaqD9MG6b0dOyLORaaeJMPQ7EESVgm/+z5EKYyFLxgzBJlJgyHQ==}
     engines: {node: '>=14'}
     dependencies:
       base64-js: 1.5.1
@@ -4576,8 +4581,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.186.0(typanion@3.14.0):
-    resolution: {integrity: sha512-n1kQZyhQoOb8aIAMeS0ig2Ue8t42Od2GaWI5XzWRvqI07Jaj2gpuXCpIIPXcGaVC7ObuFVOae9IXM22wEpfZpg==}
+  /renovate@37.192.0(typanion@3.14.0):
+    resolution: {integrity: sha512-C8CnPTSzXQMM6MqYmvK0JzSQTN7RR91S59E7ATGqTEtx794BemP1XluDlmCD27yt+ufb1+/Zo4TvqBJsI3cInA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4621,7 +4626,7 @@ packages:
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 11.1.0
+      commander: 12.0.0
       conventional-commits-detector: 1.0.3
       cron-parser: 4.9.0
       deepmerge: 4.3.1
@@ -4641,7 +4646,7 @@ packages:
       glob: 10.3.10
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
-      google-auth-library: 9.6.2
+      google-auth-library: 9.6.3
       got: 11.8.6
       graph-data-structure: 3.5.0
       handlebars: 4.7.8
