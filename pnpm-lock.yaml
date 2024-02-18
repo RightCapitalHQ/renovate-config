@@ -6,14 +6,14 @@ settings:
 
 devDependencies:
   '@rightcapital/prettier-config':
-    specifier: 6.0.12
-    version: 6.0.12(prettier@3.2.5)
+    specifier: 6.0.13
+    version: 6.0.13(prettier@3.2.5)
   prettier:
     specifier: 3.2.5
     version: 3.2.5
   renovate:
     specifier: latest
-    version: 37.192.0(typanion@3.14.0)
+    version: 37.194.2(typanion@3.14.0)
 
 packages:
 
@@ -1528,8 +1528,8 @@ packages:
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@rightcapital/prettier-config@6.0.12(prettier@3.2.5):
-    resolution: {integrity: sha512-oNdf217obn/TlVSP+r/RMKW1dWMyA2iD/H9w33SMuxag3neZMRGs0OdwxeC7eJFpxm3vnz32W8Ej+iSjOBrpmQ==}
+  /@rightcapital/prettier-config@6.0.13(prettier@3.2.5):
+    resolution: {integrity: sha512-Yk64ZtquWAHtsgIIs/cB6ab0m54Yn35BgdRJ3PtU8mpCkU07pyHKXlAw1rTGFD7OLVLLPc2uOpmuU4PdQ1dH9Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -2310,8 +2310,8 @@ packages:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
     dev: true
 
-  /better-sqlite3@9.4.0:
-    resolution: {integrity: sha512-5kynxekMxSjCMiFyUBLHggFcJkCmiZi6fUkiGz/B5GZOvdRWQJD0klqCx5/Y+bm2AKP7I/DHbSFx26AxjruWNg==}
+  /better-sqlite3@9.4.1:
+    resolution: {integrity: sha512-QpqiQeMI4WkE+dQ68zTMX5OzlPGc7lXIDP1iKUt4Omt9PdaVgzKYxHIJRIzt1E+RUBQoFmkip/IbvzyrxehAIg==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -4581,8 +4581,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.192.0(typanion@3.14.0):
-    resolution: {integrity: sha512-C8CnPTSzXQMM6MqYmvK0JzSQTN7RR91S59E7ATGqTEtx794BemP1XluDlmCD27yt+ufb1+/Zo4TvqBJsI3cInA==}
+  /renovate@37.194.2(typanion@3.14.0):
+    resolution: {integrity: sha512-2SU2B2EXWIo5X6ZrHP0gIYPhxK5G4GKmIzbHHBCcdval1QX9bFWWhQPLCSPrMA6hCNdd03P9d+RiTBTxXVXGrg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4619,7 +4619,7 @@ packages:
       auth-header: 1.0.0
       aws4: 1.12.0
       azure-devops-node-api: 12.4.0
-      better-sqlite3: 9.4.0
+      better-sqlite3: 9.4.1
       bunyan: 1.8.15
       cacache: 18.0.2
       cacheable-lookup: 5.0.4
