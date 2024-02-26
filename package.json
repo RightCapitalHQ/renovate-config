@@ -26,7 +26,7 @@
     "prepare": "pnpm run test"
   },
   "devDependencies": {
-    "@rightcapital/prettier-config": "6.0.13",
+    "@rightcapital/prettier-config": "6.0.14",
     "prettier": "3.2.5",
     "renovate": "latest"
   },
