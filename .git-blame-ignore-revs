@@ -1,0 +1,7 @@
+# This file is used by git blame to ignore commits when annotating a file.
+# - https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt
+# - https://git-scm.com/docs/git-config#Documentation/git-config.txt-blameignoreRevsFile
+
+
+# Code formatting
+ee3519a80b304bf2a37d91571312740523aa846d

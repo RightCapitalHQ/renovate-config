@@ -23,7 +23,7 @@
     "validate:default": "renovate-config-validator --strict default.json",
     "validate:library": "renovate-config-validator --strict library.json",
     "test": "pnpm run /^validate:/",
-    "prepare": "pnpm run test"
+    "prepare": "./scripts/prepare.sh"
   },
   "devDependencies": {
     "@rightcapital/prettier-config": "6.0.14",
