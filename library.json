@@ -5,6 +5,7 @@
   "extends": [
     "config:recommended",
     ":pinAllExceptPeerDependencies",
+    ":maintainLockFilesWeekly",
     "docker:pinDigests"
   ],
   "labels": ["renovate"],

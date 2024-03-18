@@ -5,6 +5,7 @@
   "extends": [
     "config:recommended",
     ":pinAllExceptPeerDependencies",
+    ":maintainLockFilesWeekly",
     "docker:pinDigests"
   ],
   "labels": ["renovate"],
@@ -15,7 +16,11 @@
     {
       "description": "Automerge non-major updates and lockfile maintenance",
       "groupName": "Non-major Updates and Lockfile Maintenance(auto merge)",
-      "matchUpdateTypes": ["minor", "patch", "lockFileMaintenance"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["lockFileMaintenance"],
       "automerge": true
     }
   ],
