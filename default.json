@@ -6,7 +6,8 @@
     "config:recommended",
     ":pinAllExceptPeerDependencies",
     ":maintainLockFilesWeekly",
-    "docker:pinDigests"
+    "docker:pinDigests",
+    "github>RightCapitalHQ/renovate-config:base-presets"
   ],
   "labels": ["renovate"],
   "npm": {
