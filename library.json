@@ -14,7 +14,7 @@
   "packageRules": [
     {
       "description": "Automerge non-major updates",
-      "groupName": "Non-major Updates(auto merge)",
+      "groupName": "Automerge Non-major Updates",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
