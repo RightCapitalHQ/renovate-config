@@ -15,8 +15,8 @@
   },
   "packageRules": [
     {
-      "description": "Automerge non-major updates and lockfile maintenance",
-      "groupName": "Non-major Updates and Lockfile Maintenance(auto merge)",
+      "description": "Automerge non-major updates",
+      "groupName": "Automerge Non-major Updates",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     },
