@@ -26,7 +26,7 @@
     "prepare": "./scripts/prepare.sh"
   },
   "devDependencies": {
-    "@rightcapital/prettier-config": "6.0.15",
+    "@rightcapital/prettier-config": "6.0.16",
     "prettier": "3.2.5",
     "renovate": "latest"
   },
