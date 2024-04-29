@@ -8,22 +8,22 @@
     "renovate",
     "renovate-presets"
   ],
-  "license": "MIT",
   "homepage": "https://github.com/RightCapitalHQ/renovate-config",
+  "bugs": {
+    "url": "https://github.com/RightCapitalHQ/renovate-config/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RightCapitalHQ/renovate-config.git"
   },
-  "bugs": {
-    "url": "https://github.com/RightCapitalHQ/renovate-config/issues"
-  },
+  "license": "MIT",
   "scripts": {
-    "lint": "prettier -c .",
     "fix": "prettier -w .",
-    "validate:default": "renovate-config-validator --strict default.json",
-    "validate:library": "renovate-config-validator --strict library.json",
+    "lint": "prettier -c .",
+    "prepare": "./scripts/prepare.sh",
     "test": "pnpm run /^validate:/",
-    "prepare": "./scripts/prepare.sh"
+    "validate:default": "renovate-config-validator --strict default.json",
+    "validate:library": "renovate-config-validator --strict library.json"
   },
   "devDependencies": {
     "@rightcapital/prettier-config": "7.0.2",
