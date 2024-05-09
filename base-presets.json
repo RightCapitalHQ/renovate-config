@@ -6,6 +6,11 @@
       "matchSourceUrls": [
         "https://github.com/RightCapitalHQ/frontend-style-guide"
       ]
+    },
+    {
+      "description": "Restrict ESLint to v8",
+      "matchPackageNames": ["eslint"],
+      "allowedVersions": "<9.0.0"
     }
   ]
 }
