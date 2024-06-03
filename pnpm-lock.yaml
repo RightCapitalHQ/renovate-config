@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@rightcapital/prettier-config':
-        specifier: 7.1.0
-        version: 7.1.0(prettier@3.3.0)
+        specifier: 7.1.1
+        version: 7.1.1(prettier@3.3.0)
       prettier:
         specifier: 3.3.0
         version: 3.3.0
@@ -537,8 +537,8 @@ packages:
     resolution: {integrity: sha512-YGvsvvyxOgv5Uq+sFEdD1yviyrPGs9hocjhIo7uWTj/EAIlbGyk5YA5JrHql3EkJf0tVsyfmEkM3kLK+45hmIw==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
 
-  '@rightcapital/prettier-config@7.1.0':
-    resolution: {integrity: sha512-IoyeXHKEvDfoXGpatdtnVg5PKhFIl9PcXX6WH5m9q8MS6YFlC27zvMqgzxVQkk2PyKdslGdR5QCXktcQedZ4ug==}
+  '@rightcapital/prettier-config@7.1.1':
+    resolution: {integrity: sha512-kdXX3oT3X6js+otFImk3W+20yD4djfgeRu5Jp7XTpa/N32wKurnRXRpo02rvxIpzx7Aq+2ALPXG1a72sWtHTUw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -4156,7 +4156,7 @@ snapshots:
 
   '@renovatebot/ruby-semver@3.0.23': {}
 
-  '@rightcapital/prettier-config@7.1.0(prettier@3.3.0)':
+  '@rightcapital/prettier-config@7.1.1(prettier@3.3.0)':
     dependencies:
       prettier: 3.3.0
       prettier-plugin-packagejson: 2.5.0(prettier@3.3.0)
