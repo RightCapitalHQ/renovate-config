@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@rightcapital/prettier-config':
-        specifier: 7.1.4
-        version: 7.1.4(prettier@3.3.3)
+        specifier: 7.1.5
+        version: 7.1.5(prettier@3.3.3)
       prettier:
         specifier: 3.3.3
         version: 3.3.3
       renovate:
         specifier: latest
-        version: 37.431.4(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 37.432.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -564,8 +564,8 @@ packages:
     resolution: {integrity: sha512-YGvsvvyxOgv5Uq+sFEdD1yviyrPGs9hocjhIo7uWTj/EAIlbGyk5YA5JrHql3EkJf0tVsyfmEkM3kLK+45hmIw==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
 
-  '@rightcapital/prettier-config@7.1.4':
-    resolution: {integrity: sha512-AZEbxddkRpY+Dxbm1ar9Ud5D/p0J9DYggGjgZTUtMM0FBhDJjVlDkDRbQ8QGXZy3fW73VrAADgnNNK9EjR71dg==}
+  '@rightcapital/prettier-config@7.1.5':
+    resolution: {integrity: sha512-mpbhcZwLGmNAJmXl1VIk5WDP+bR65zVmCS+gcA5QuqFG/6rhA/UDyEzhdfixR5oAZbyb1mIoCibSwgFnE/xNQg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -2358,8 +2358,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  prettier-plugin-packagejson@2.5.0:
-    resolution: {integrity: sha512-6XkH3rpin5QEQodBSVNg+rBo4r91g/1mCaRwS1YGdQJZ6jwqrg2UchBsIG9tpS1yK1kNBvOt84OILsX8uHzBGg==}
+  prettier-plugin-packagejson@2.5.1:
+    resolution: {integrity: sha512-6i4PW1KxEA+VrokYNGeI/q8qQX3u5DNBc7eLr9GX4OrvWr9DMls1lhbuNopkKG7Li9rTNxerWnYQyjxoUO4ROA==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -2476,8 +2476,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.431.4:
-    resolution: {integrity: sha512-sOHR+or7DLPWGvN0CwqTg9t9qPY5sQ/oCYD9PKxbkej12vJDu1+MFD6ONPndENa8PTtcbPAHHED1IC6sAUPOzQ==}
+  renovate@37.432.0:
+    resolution: {integrity: sha512-db3PbYdTJBd5R9ybzy/TN1RFz2bbB79fE1bFw3bfjFoezZZAzk4xP942zwcWeZ5zmRGjXHNN8ZMYG9QbQr90nA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -2745,8 +2745,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  synckit@0.9.0:
-    resolution: {integrity: sha512-7RnqIMq572L8PeEzKeBINYEJDDxpcH8JEgLwUqBd3TkofhFRbkq4QLR0u+36avGAhCRbk2nnmjcW9SE531hPDg==}
+  synckit@0.9.1:
+    resolution: {integrity: sha512-7gr8p9TQP6RAHusBOSLs46F4564ZrjV8xFmw5zCmgmhGUcw2hxsShhJ6CEiHQMgPDwAQ1fWHPM0ypc4RMAig4A==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
   tar-fs@2.1.1:
@@ -4223,10 +4223,10 @@ snapshots:
 
   '@renovatebot/ruby-semver@3.0.23': {}
 
-  '@rightcapital/prettier-config@7.1.4(prettier@3.3.3)':
+  '@rightcapital/prettier-config@7.1.5(prettier@3.3.3)':
     dependencies:
       prettier: 3.3.3
-      prettier-plugin-packagejson: 2.5.0(prettier@3.3.3)
+      prettier-plugin-packagejson: 2.5.1(prettier@3.3.3)
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
@@ -6361,10 +6361,10 @@ snapshots:
       tunnel-agent: 0.6.0
     optional: true
 
-  prettier-plugin-packagejson@2.5.0(prettier@3.3.3):
+  prettier-plugin-packagejson@2.5.1(prettier@3.3.3):
     dependencies:
       sort-package-json: 2.10.0
-      synckit: 0.9.0
+      synckit: 0.9.1
     optionalDependencies:
       prettier: 3.3.3
 
@@ -6519,7 +6519,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.431.4(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.432.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.606.0
       '@aws-sdk/client-ec2': 3.606.0
@@ -6929,7 +6929,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  synckit@0.9.0:
+  synckit@0.9.1:
     dependencies:
       '@pkgr/core': 0.1.1
       tslib: 2.6.3
