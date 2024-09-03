@@ -8,6 +8,10 @@
       ]
     },
     {
+      "groupName": "jscpd monorepo",
+      "matchSourceUrls": ["https://github.com/kucherenko/jscpd"]
+    },
+    {
       "description": "Restrict ESLint to v8",
       "matchPackageNames": ["eslint", "@types/eslint"],
       "allowedVersions": "<9.0.0"
