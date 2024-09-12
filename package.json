@@ -26,7 +26,7 @@
     "validate:library": "renovate-config-validator --strict library.json"
   },
   "devDependencies": {
-    "@rightcapital/prettier-config": "7.1.6",
+    "@rightcapital/prettier-config": "7.1.7",
     "prettier": "3.3.3",
     "renovate": "latest"
   },
