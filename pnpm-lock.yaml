@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@rightcapital/prettier-config':
         specifier: 7.2.1
-        version: 7.2.1(prettier@3.4.2)
+        version: 7.2.1(prettier@3.5.3)
       prettier:
-        specifier: 3.4.2
-        version: 3.4.2
+        specifier: 3.5.3
+        version: 3.5.3
       renovate:
         specifier: latest
-        version: 39.207.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.207.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -277,10 +277,6 @@ packages:
 
   '@one-ini/wasm@0.2.0':
     resolution: {integrity: sha512-n+L/BvrwKUn7q5O3wHGo+CJZAqfewh38+37sk+eBzv/39lM9pPgPRd4sOZRvSRzo0ukLxzyXso4WlGj2oKZ5hA==}
-
-  '@opentelemetry/api-logs@0.57.1':
-    resolution: {integrity: sha512-I4PHczeujhQAQv6ZBzqHYEUiggZL4IdSMixtVD3EYqbdrjujE7kRfI5QohjlPoJm8BvenoW5YaTMWRrbpot6tg==}
-    engines: {node: '>=14'}
 
   '@opentelemetry/api-logs@0.57.2':
     resolution: {integrity: sha512-uIX52NnTM0iBh84MShlpouI7UKqkZ7MrUszTmaypHBu4r7NofznSnQRfJ+uUeDtQDj6w8eFGg5KBLDAwAPz1+A==}
@@ -2272,11 +2268,6 @@ packages:
       prettier:
         optional: true
 
-  prettier@3.4.2:
-    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
-    engines: {node: '>=14'}
-    hasBin: true
-
   prettier@3.5.3:
     resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
@@ -2382,8 +2373,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.207.2:
-    resolution: {integrity: sha512-Woz7K5DDzJj8UK8UCKJB/RvvpsNLDN34HSzYvbjnm6xXKpV8bI5FfPrqtVdMIO3GkoRtOaMd3fiOfv+gppwTsw==}
+  renovate@39.207.3:
+    resolution: {integrity: sha512-IRG1O9+gKr61XB12m3dvuT0SOpHGG0aCvcLou1h/NqoU3zaNNpAZGwlYxG2UFbM7bJhe+C947mi8BG+YVJGo5w==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3746,10 +3737,6 @@ snapshots:
 
   '@one-ini/wasm@0.2.0': {}
 
-  '@opentelemetry/api-logs@0.57.1':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-
   '@opentelemetry/api-logs@0.57.2':
     dependencies:
       '@opentelemetry/api': 1.9.0
@@ -3777,7 +3764,7 @@ snapshots:
   '@opentelemetry/instrumentation-bunyan@0.45.1(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.57.1
+      '@opentelemetry/api-logs': 0.57.2
       '@opentelemetry/instrumentation': 0.57.2(@opentelemetry/api@1.9.0)
       '@types/bunyan': 1.8.11
     transitivePeerDependencies:
@@ -4037,10 +4024,10 @@ snapshots:
 
   '@renovatebot/ruby-semver@4.0.0': {}
 
-  '@rightcapital/prettier-config@7.2.1(prettier@3.4.2)':
+  '@rightcapital/prettier-config@7.2.1(prettier@3.5.3)':
     dependencies:
-      prettier: 3.4.2
-      prettier-plugin-packagejson: 2.5.6(prettier@3.4.2)
+      prettier: 3.5.3
+      prettier-plugin-packagejson: 2.5.6(prettier@3.5.3)
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
@@ -6001,14 +5988,12 @@ snapshots:
       tunnel-agent: 0.6.0
     optional: true
 
-  prettier-plugin-packagejson@2.5.6(prettier@3.4.2):
+  prettier-plugin-packagejson@2.5.6(prettier@3.5.3):
     dependencies:
       sort-package-json: 2.12.0
       synckit: 0.9.2
     optionalDependencies:
-      prettier: 3.4.2
-
-  prettier@3.4.2: {}
+      prettier: 3.5.3
 
   prettier@3.5.3: {}
 
@@ -6154,7 +6139,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.207.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.207.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
