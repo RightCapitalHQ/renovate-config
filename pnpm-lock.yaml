@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@rightcapital/prettier-config':
-        specifier: 7.2.2
-        version: 7.2.2(prettier@3.5.3)
+        specifier: 7.2.3
+        version: 7.2.3(prettier@3.5.3)
       prettier:
         specifier: 3.5.3
         version: 3.5.3
       renovate:
         specifier: latest
-        version: 40.14.6(encoding@0.1.13)(typanion@3.14.0)
+        version: 40.18.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -554,8 +554,8 @@ packages:
     resolution: {integrity: sha512-vuLfebLvwYWwQYJeZiHHs5NmydjO6cdhwS1dUHJbXMi0WD8kBa/+f7gz4WcuNJPRR+enLFQUHs89OCjfl6Os0g==}
     engines: {node: ^20.9.0 || ^22.11.0, pnpm: ^9.0.0}
 
-  '@rightcapital/prettier-config@7.2.2':
-    resolution: {integrity: sha512-E94L5Qgd8s1YAMGHGy1CDzuwj2bg/J3quECRLbFZqGGkcL71f3VScC84WOvM3csdR1x3HoC9QgKs0awsYRxk1Q==}
+  '@rightcapital/prettier-config@7.2.3':
+    resolution: {integrity: sha512-d2tUlY8ifKriGwKRUV3bbER3dupfSonAM4Rax+DlUUzK3NnviR+Xl9MSr0wd2YUn1u0sH5fZGKMlvrgqTAWaoQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -2134,8 +2134,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openpgp@6.1.0:
-    resolution: {integrity: sha512-fRTeitP+hoGJD3kbdUlAI++wE6MvfvXw1rBqHwmBMxIpLjowatJ2zb5ThkORpIkSz5F12wO+xCYRSTbT7M4qKA==}
+  openpgp@6.1.1:
+    resolution: {integrity: sha512-V/DXZ5AGCz3q4X8psUSc3q4SxnH/bfICaTSpNcla7wvBFhrxa9/ajm31rtMwZ1qj7Fu2oMpfX6ZcxKmTBlb6Yg==}
     engines: {node: '>= 18.0.0'}
 
   p-all@3.0.0:
@@ -2271,8 +2271,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  prettier-plugin-packagejson@2.5.12:
-    resolution: {integrity: sha512-IMBkjSNMaMx8QpmYD/5Y7gXn1hRBMY91EF29MotVSI6bT7SCDFZ7bXL9EeumEXn7tjUFYoN8D0fTs0XpxmYg8A==}
+  prettier-plugin-packagejson@2.5.14:
+    resolution: {integrity: sha512-h+3tSpr2nVpp+YOK1MDIYtYhHVXr8/0V59UUbJpIJFaqi3w4fvUokJo6eV8W+vELrUXIZzJ+DKm5G7lYzrMcKQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -2381,8 +2381,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.14.6:
-    resolution: {integrity: sha512-7A5MQYF7haeECm2q684DxEMkqQwJNSFc9F5tHBZVs0yENobpSrAbrAieoSA0aFkV+UV2cZJURNcGXMpiu7QMTQ==}
+  renovate@40.18.3:
+    resolution: {integrity: sha512-I3CxspBWFE13PNHLt+T3Guzgow5lQcGMeGUQ0RmwE8Xq2BMhIUDuykZEwz2iWbxRC0OJ2qSAec0JtW9c49xy3Q==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2464,11 +2464,6 @@ packages:
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
-    hasBin: true
-
-  semver@7.7.1:
-    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
-    engines: {node: '>=10'}
     hasBin: true
 
   semver@7.7.2:
@@ -2637,8 +2632,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  synckit@0.11.4:
-    resolution: {integrity: sha512-Q/XQKRaJiLiFIBNN+mndW7S/RHxvwzuZS6ZwmRzUBqJBv/5QIKCEwkBC8GBf8EQJKYnaFs0wOZbKTXBPj8L9oQ==}
+  synckit@0.11.6:
+    resolution: {integrity: sha512-2pR2ubZSV64f/vqm9eLPz/KOvR9Dm+Co/5ChLgeHl0yEDRc6h5hXHoxEQH8Y5Ljycozd3p1k5TTSVdzYGkPvLw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
   tar-fs@2.1.2:
@@ -4089,10 +4084,10 @@ snapshots:
 
   '@renovatebot/ruby-semver@4.0.0': {}
 
-  '@rightcapital/prettier-config@7.2.2(prettier@3.5.3)':
+  '@rightcapital/prettier-config@7.2.3(prettier@3.5.3)':
     dependencies:
       prettier: 3.5.3
-      prettier-plugin-packagejson: 2.5.12(prettier@3.5.3)
+      prettier-plugin-packagejson: 2.5.14(prettier@3.5.3)
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
@@ -5896,7 +5891,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openpgp@6.1.0:
+  openpgp@6.1.1:
     optional: true
 
   p-all@3.0.0:
@@ -6031,10 +6026,10 @@ snapshots:
       tunnel-agent: 0.6.0
     optional: true
 
-  prettier-plugin-packagejson@2.5.12(prettier@3.5.3):
+  prettier-plugin-packagejson@2.5.14(prettier@3.5.3):
     dependencies:
       sort-package-json: 3.2.1
-      synckit: 0.11.4
+      synckit: 0.11.6
     optionalDependencies:
       prettier: 3.5.3
 
@@ -6180,7 +6175,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.14.6(encoding@0.1.13)(typanion@3.14.0):
+  renovate@40.18.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.799.0
       '@aws-sdk/client-ec2': 3.800.0
@@ -6282,7 +6277,7 @@ snapshots:
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.5.0
-      semver: 7.7.1
+      semver: 7.7.2
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
@@ -6300,7 +6295,7 @@ snapshots:
       zod: 3.24.4
     optionalDependencies:
       better-sqlite3: 11.10.0
-      openpgp: 6.1.0
+      openpgp: 6.1.1
       re2: 1.21.5
     transitivePeerDependencies:
       - aws-crt
@@ -6384,8 +6379,6 @@ snapshots:
   semver@5.7.2: {}
 
   semver@6.3.1: {}
-
-  semver@7.7.1: {}
 
   semver@7.7.2: {}
 
@@ -6578,10 +6571,9 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  synckit@0.11.4:
+  synckit@0.11.6:
     dependencies:
       '@pkgr/core': 0.2.4
-      tslib: 2.8.1
 
   tar-fs@2.1.2:
     dependencies:
