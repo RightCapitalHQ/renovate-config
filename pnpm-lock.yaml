@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@rightcapital/prettier-config':
-        specifier: 7.2.3
-        version: 7.2.3(prettier@3.5.3)
+        specifier: 7.2.4
+        version: 7.2.4(prettier@3.5.3)
       prettier:
         specifier: 3.5.3
         version: 3.5.3
       renovate:
         specifier: latest
-        version: 40.37.1(encoding@0.1.13)(typanion@3.14.0)
+        version: 40.40.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -548,8 +548,8 @@ packages:
     resolution: {integrity: sha512-vuLfebLvwYWwQYJeZiHHs5NmydjO6cdhwS1dUHJbXMi0WD8kBa/+f7gz4WcuNJPRR+enLFQUHs89OCjfl6Os0g==}
     engines: {node: ^20.9.0 || ^22.11.0, pnpm: ^9.0.0}
 
-  '@rightcapital/prettier-config@7.2.3':
-    resolution: {integrity: sha512-d2tUlY8ifKriGwKRUV3bbER3dupfSonAM4Rax+DlUUzK3NnviR+Xl9MSr0wd2YUn1u0sH5fZGKMlvrgqTAWaoQ==}
+  '@rightcapital/prettier-config@7.2.4':
+    resolution: {integrity: sha512-IQehbmvhKfeumijQhu5LWTc0yAkYn9mhNaB813EQaFTDI+0sz397lUA7uN9e4EiavpVSQ4sDG+FgV4qxhgM+CA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -2265,8 +2265,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  prettier-plugin-packagejson@2.5.14:
-    resolution: {integrity: sha512-h+3tSpr2nVpp+YOK1MDIYtYhHVXr8/0V59UUbJpIJFaqi3w4fvUokJo6eV8W+vELrUXIZzJ+DKm5G7lYzrMcKQ==}
+  prettier-plugin-packagejson@2.5.15:
+    resolution: {integrity: sha512-2QSx6y4IT6LTwXtCvXAopENW5IP/aujC8fobEM2pDbs0IGkiVjW/ipPuYAHuXigbNe64aGWF7vIetukuzM3CBw==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -2375,8 +2375,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.37.1:
-    resolution: {integrity: sha512-eRujgsDRMmSYlHIoqmEdF/3uglDxmRwEG440fAmpLVpDD/gngbH8CmPt0jOnqFKbpMHDjW9Ny/V/DSWz2AQopg==}
+  renovate@40.40.3:
+    resolution: {integrity: sha512-d40t+d6SAdCyArttLebeHcRmBVKjVRmVDamyBQiexZfRqzx2VENBzkwYv6tVt9eA+xwYZKF1JJ2pbJEbq874cQ==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2626,8 +2626,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  synckit@0.11.6:
-    resolution: {integrity: sha512-2pR2ubZSV64f/vqm9eLPz/KOvR9Dm+Co/5ChLgeHl0yEDRc6h5hXHoxEQH8Y5Ljycozd3p1k5TTSVdzYGkPvLw==}
+  synckit@0.11.8:
+    resolution: {integrity: sha512-+XZ+r1XGIJGeQk3VvXhT6xx/VpbHsRzsTkGgF6E5RX9TTXD0118l87puaEBZ566FhqblC6U0d4XnubznJDm30A==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
   tar-fs@2.1.3:
@@ -2893,8 +2893,8 @@ packages:
     resolution: {integrity: sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==}
     engines: {node: '>=12.20'}
 
-  zod@3.25.28:
-    resolution: {integrity: sha512-/nt/67WYKnr5by3YS7LroZJbtcCBurDKKPBPWWzaxvVCGuG/NOsiKkrjoOhI8mJ+SQUXEbUzeB3S+6XDUEEj7Q==}
+  zod@3.25.32:
+    resolution: {integrity: sha512-OSm2xTIRfW8CV5/QKgngwmQW/8aPfGdaQFlrGoErlgg/Epm7cjb6K6VEyExfe65a3VybUOnu381edLb0dfJl0g==}
 
   zwitch@1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
@@ -4041,7 +4041,7 @@ snapshots:
       fs-extra: 11.3.0
       toml-eslint-parser: 0.10.0
       upath: 2.0.1
-      zod: 3.25.28
+      zod: 3.25.32
 
   '@renovatebot/kbpgp@4.0.1':
     dependencies:
@@ -4074,10 +4074,10 @@ snapshots:
 
   '@renovatebot/ruby-semver@4.0.0': {}
 
-  '@rightcapital/prettier-config@7.2.3(prettier@3.5.3)':
+  '@rightcapital/prettier-config@7.2.4(prettier@3.5.3)':
     dependencies:
       prettier: 3.5.3
-      prettier-plugin-packagejson: 2.5.14(prettier@3.5.3)
+      prettier-plugin-packagejson: 2.5.15(prettier@3.5.3)
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
@@ -6017,10 +6017,10 @@ snapshots:
       tunnel-agent: 0.6.0
     optional: true
 
-  prettier-plugin-packagejson@2.5.14(prettier@3.5.3):
+  prettier-plugin-packagejson@2.5.15(prettier@3.5.3):
     dependencies:
       sort-package-json: 3.2.1
-      synckit: 0.11.6
+      synckit: 0.11.8
     optionalDependencies:
       prettier: 3.5.3
 
@@ -6166,7 +6166,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.37.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@40.40.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.821.0
       '@aws-sdk/client-ec2': 3.821.0
@@ -6283,7 +6283,7 @@ snapshots:
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
       yaml: 2.8.0
-      zod: 3.25.28
+      zod: 3.25.32
     optionalDependencies:
       better-sqlite3: 11.10.0
       openpgp: 6.1.1
@@ -6562,7 +6562,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  synckit@0.11.6:
+  synckit@0.11.8:
     dependencies:
       '@pkgr/core': 0.2.7
 
@@ -6856,6 +6856,6 @@ snapshots:
 
   yocto-queue@1.2.1: {}
 
-  zod@3.25.28: {}
+  zod@3.25.32: {}
 
   zwitch@1.0.5: {}
