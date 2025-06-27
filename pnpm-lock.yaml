@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@rightcapital/prettier-config':
         specifier: 7.2.5
-        version: 7.2.5(prettier@3.6.1)
+        version: 7.2.5(prettier@3.6.2)
       prettier:
-        specifier: 3.6.1
-        version: 3.6.1
+        specifier: 3.6.2
+        version: 3.6.2
       renovate:
         specifier: latest
-        version: 41.9.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.13.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2334,8 +2334,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.6.1:
-    resolution: {integrity: sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2436,8 +2436,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.9.0:
-    resolution: {integrity: sha512-JjuoDjZMu/HaGCF8DI2umKUlzbLQ625pgWpp0DFcLAFtBZIZo1+8LgFGRHjNBd7tJCkJ8Ag0jfIWKEOSknEnaQ==}
+  renovate@41.13.0:
+    resolution: {integrity: sha512-lcBbDBN4G2RjCuApg6thaEC9zc+WNoHhoigsS/E0U52ifyResyGzKhp2YlmPxSLVA/++SfCWuWHIiYD2O61mmA==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4135,10 +4135,10 @@ snapshots:
 
   '@renovatebot/ruby-semver@4.0.0': {}
 
-  '@rightcapital/prettier-config@7.2.5(prettier@3.6.1)':
+  '@rightcapital/prettier-config@7.2.5(prettier@3.6.2)':
     dependencies:
-      prettier: 3.6.1
-      prettier-plugin-packagejson: 2.5.15(prettier@3.6.1)
+      prettier: 3.6.2
+      prettier-plugin-packagejson: 2.5.15(prettier@3.6.2)
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
@@ -6200,16 +6200,16 @@ snapshots:
       tunnel-agent: 0.6.0
     optional: true
 
-  prettier-plugin-packagejson@2.5.15(prettier@3.6.1):
+  prettier-plugin-packagejson@2.5.15(prettier@3.6.2):
     dependencies:
       sort-package-json: 3.2.1
       synckit: 0.11.8
     optionalDependencies:
-      prettier: 3.6.1
+      prettier: 3.6.2
 
   prettier@3.5.3: {}
 
-  prettier@3.6.1: {}
+  prettier@3.6.2: {}
 
   proc-log@5.0.0:
     optional: true
@@ -6360,7 +6360,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.9.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.13.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.821.0
       '@aws-sdk/client-ec2': 3.821.0
