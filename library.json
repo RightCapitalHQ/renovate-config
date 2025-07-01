@@ -15,8 +15,7 @@
     {
       "description": "Automerge non-major updates",
       "groupName": "Automerge Non-major Updates",
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
+      "extends": [":automergeStableNonMajor"]
     }
   ],
   "platformAutomerge": true,
