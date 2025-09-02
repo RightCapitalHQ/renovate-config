@@ -17,9 +17,7 @@
     {
       "description": "Automerge non-major updates",
       "groupName": "Automerge Non-major Updates",
-      "matchCurrentVersion": "!/^0/",
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
+      "extends": [":automergeStableNonMajor"]
     },
     {
       "matchUpdateTypes": ["lockFileMaintenance"],
