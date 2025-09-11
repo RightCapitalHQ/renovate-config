@@ -5,7 +5,6 @@
   "extends": [
     "config:recommended",
     ":pinAllExceptPeerDependencies",
-    ":maintainLockFilesWeekly",
     "docker:pinDigests",
     "github>RightCapitalHQ/renovate-config:base-presets"
   ],
