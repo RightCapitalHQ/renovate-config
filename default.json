@@ -5,7 +5,6 @@
   "extends": [
     "config:recommended",
     ":pinAllExceptPeerDependencies",
-    ":maintainLockFilesWeekly",
     "docker:pinDigests",
     "github>RightCapitalHQ/renovate-config:base-presets"
   ],
@@ -18,10 +17,6 @@
       "description": "Automerge non-major updates",
       "groupName": "Automerge Non-major Updates",
       "extends": [":automergeStableNonMajor"]
-    },
-    {
-      "matchUpdateTypes": ["lockFileMaintenance"],
-      "automerge": true
     }
   ],
   "platformAutomerge": true,
