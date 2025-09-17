@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "internalChecksFilter": "strict",
   "minimumReleaseAge": "7 days",
   "lockFileMaintenance": {
     "enabled": true,
