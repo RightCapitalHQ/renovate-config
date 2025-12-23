@@ -9,7 +9,7 @@
   },
   "packageRules": [
     {
-      "matchPackageNames": ["@rightcapital/*"],
+      "matchPackageNames": ["/rightcapital/i"],
       "minimumReleaseAge": null
     },
     {
