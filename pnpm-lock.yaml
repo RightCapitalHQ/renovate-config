@@ -16,7 +16,7 @@ importers:
         version: 3.8.1
       renovate:
         specifier: latest
-        version: 43.15.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 43.15.2(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2522,8 +2522,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.15.0:
-    resolution: {integrity: sha512-1jXefF0Z1wfZNumlR3ENFZYcwu2hJ7kBBR6x9mkJmK8Q1U5K1iK38wPGr5YOb3j8zHdIZ0GIHxIKi2XUN0MzpQ==}
+  renovate@43.15.2:
+    resolution: {integrity: sha512-gB9r2oxAc4rKVGumjPe1g4rR0NBpU8fzrx5yD0qtraEWB5v9RJsY9vwkoBk7Fh2h8+Ixrohy0lvCYKcigfmpDQ==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2606,11 +2606,6 @@ packages:
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
-    hasBin: true
-
-  semver@7.7.3:
-    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
-    engines: {node: '>=10'}
     hasBin: true
 
   semver@7.7.4:
@@ -6669,7 +6664,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.15.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@43.15.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.980.0
       '@aws-sdk/client-ec2': 3.980.0
@@ -6877,8 +6872,6 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.7.3: {}
-
   semver@7.7.4: {}
 
   serialize-error@7.0.1:
@@ -6984,7 +6977,7 @@ snapshots:
       detect-newline: 4.0.1
       git-hooks-list: 4.1.1
       is-plain-obj: 4.1.0
-      semver: 7.7.3
+      semver: 7.7.4
       sort-object-keys: 1.1.3
       tinyglobby: 0.2.15
 
