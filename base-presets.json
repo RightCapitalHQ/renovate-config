@@ -34,6 +34,12 @@
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["RightCapitalHQ/actions"],
       "enabled": false
+    },
+    {
+      "description": "Group RightCapitalHQ/actions reusable workflow refs and skip release-age cooldown (we own them)",
+      "matchPackageNames": ["RightCapitalHQ/actions/**"],
+      "groupName": "RightCapital actions",
+      "minimumReleaseAge": null
     }
   ],
   "customManagers": [
