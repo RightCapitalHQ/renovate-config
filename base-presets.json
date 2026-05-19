@@ -29,5 +29,19 @@
       "groupName": "Strip.js packages",
       "matchPackageNames": ["@stripe/stripe-js", "@stripe/react-stripe-js"]
     }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Update RightCapitalHQ/actions reusable workflow refs, scoped to per-action tag prefix (e.g. nx-release-auto-plan/v1.2.3)",
+      "managerFilePatterns": ["/(^|/)\\.github/workflows/[^/]+\\.ya?ml$/"],
+      "matchStrings": [
+        "uses:\\s*(?:RightCapitalHQ|rightcapitalhq)/actions/\\.github/workflows/[^@\\s]+@(?<currentValue>(?<prefix>[a-z-]+)/v\\d+\\.\\d+\\.\\d+)"
+      ],
+      "depNameTemplate": "RightCapitalHQ/actions",
+      "packageNameTemplate": "RightCapitalHQ/actions",
+      "datasourceTemplate": "github-tags",
+      "versioningTemplate": "regex:^{{{prefix}}}/v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$"
+    }
   ]
 }
