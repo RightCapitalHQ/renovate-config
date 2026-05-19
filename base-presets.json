@@ -2,6 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "internalChecksFilter": "strict",
   "minimumReleaseAge": "7 days",
+  "gitIgnoredAuthors": [
+    "270908863+rc-actions-bot[bot]@users.noreply.github.com"
+  ],
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
