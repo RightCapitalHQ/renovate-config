@@ -36,8 +36,8 @@
       "enabled": false
     },
     {
-      "description": "Group RightCapitalHQ/actions reusable workflow refs and skip release-age cooldown (we own them)",
-      "matchPackageNames": ["RightCapitalHQ/actions/**"],
+      "description": "Group RightCapitalHQ/actions reusable workflow refs and skip release-age cooldown (we own them). Match by depName because the customManager sets a per-prefix depName (`RightCapitalHQ/actions/<action>`) while packageName stays the bare repo for the github-tags lookup.",
+      "matchDepNames": ["RightCapitalHQ/actions/**"],
       "groupName": "RightCapital actions",
       "minimumReleaseAge": null
     }
