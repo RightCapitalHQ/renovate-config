@@ -28,6 +28,12 @@
     {
       "groupName": "Strip.js packages",
       "matchPackageNames": ["@stripe/stripe-js", "@stripe/react-stripe-js"]
+    },
+    {
+      "description": "Disable the built-in github-actions manager for RightCapitalHQ/actions reusable workflows. Their tags are prefix-first (e.g. nx-release-auto-plan/v1.2.3), which fails Renovate's `/^v?\\d+/` check and routes to the github-digest datasource (digest-pinning only, no version updates). The customManager below handles them instead.",
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["RightCapitalHQ/actions"],
+      "enabled": false
     }
   ],
   "customManagers": [
@@ -38,7 +44,7 @@
       "matchStrings": [
         "uses:\\s*(?:RightCapitalHQ|rightcapitalhq)/actions/\\.github/workflows/[^@\\s]+@(?<currentValue>(?<prefix>[a-z-]+)/v\\d+\\.\\d+\\.\\d+)"
       ],
-      "depNameTemplate": "RightCapitalHQ/actions",
+      "depNameTemplate": "RightCapitalHQ/actions/{{prefix}}",
       "packageNameTemplate": "RightCapitalHQ/actions",
       "datasourceTemplate": "github-tags",
       "versioningTemplate": "regex:^{{{prefix}}}/v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$"
