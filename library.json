@@ -3,9 +3,8 @@
   "automergeType": "pr",
   "description": "Library-specific config for RightCapital repositories",
   "extends": [
-    "config:recommended",
+    "config:best-practices",
     ":pinAllExceptPeerDependencies",
-    "docker:pinDigests",
     "github>RightCapitalHQ/renovate-config:base-presets"
   ],
   "labels": ["renovate"],
