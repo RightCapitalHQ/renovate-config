@@ -12,6 +12,16 @@
   },
   "packageRules": [
     {
+      "description": "Override security:minimumReleaseAgeNpm's 3-day default back to the shared 7-day cooldown.",
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "7 days"
+    },
+    {
+      "description": "Do not require minimum release age for lock file maintenance.",
+      "matchUpdateTypes": ["lockFileMaintenance"],
+      "minimumReleaseAge": null
+    },
+    {
       "matchPackageNames": ["@rightcapital/*"],
       "minimumReleaseAge": null
     },
