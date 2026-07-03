@@ -13,9 +13,10 @@
   },
   "packageRules": [
     {
-      "description": "Automerge non-major updates",
-      "groupName": "Automerge Non-major Updates",
-      "extends": [":automergeStableNonMajor"]
+      "description": "Group stable non-major updates",
+      "groupName": "Stable Non-major Updates",
+      "matchCurrentVersion": "!/^0/",
+      "matchUpdateTypes": ["minor", "patch"]
     }
   ],
   "platformAutomerge": true,
